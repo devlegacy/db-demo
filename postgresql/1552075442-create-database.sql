@@ -2,4 +2,6 @@ CREATE USER edwork PASSWORD 'edwork';
 
 CREATE DATABASE edwork OWNER edwork;
 
-USE edwork;
+psql -U edwork -d edwork
+
+\c edwork
