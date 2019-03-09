@@ -1,0 +1,7 @@
+# Notes
+
+```bash
+  touch `date +%F-%I-%M-%S`-filanme.sql
+  # Recommend
+  touch `date +%s`-filanme.sql
+```
