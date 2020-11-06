@@ -8,5 +8,7 @@
 
 ```bash
   # Backup with postgres
-  pg_dump -U postgres edwork > ./postgresql/`date +%s`_backup_edwork.sql
+  pg_dump -U [user] [dbname] > ./postgresql/`date +%s`_backup_[dbname].sql
+  # example
+  pg_dump -U postgres demo > ./postgresql/`date +%s`_backup_demo.sql
 ```
